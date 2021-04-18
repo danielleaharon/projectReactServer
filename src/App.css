@@ -1,6 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
 .App {
   text-align: center;
+
 }
+#menu{
+  font-size: 30px;
+  color: #008CBA;
+
+}
+.dropP{
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 16px;
+}
+.welcome {
+  position: relative;
+  /* text-align: center; */
+  color: white;
+  font-family: 'Roboto';
+  background: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05));
+  background-position: 50% 50%;  
+}
+.welcome p{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin: 152px -15px 0 1px;
+}
+.welcome h2{
+  font-size: 5rem;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 2px 8px rgba(66,84,101,0.4);
+  text-transform: uppercase;
+  margin: 10px 1px 0 0;
+
+
+}
+.backimghome{
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05));
+
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  /* padding: 30px; */
+  top: 30%;
+  left: 266px;
+}
+
+
+
+
+
+
+.light{
+  font-size: 48px;
+  background-color: #ffffffee;
+  font-family: Lato, sans-serif;
+}
+.about{
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+.about h2{
+  font-family: 'Roboto';
+  font-size: 48px;
+
+
+}
+.about p{
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 1.8;
+
+}
+.imageBackground{
+  background-image: url('./background.png');
+}
+/* .button {
+  
+ padding-left: 20px;
+ padding-right: 25px;
+
+  font-size: 18px;
+
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  border-radius: 5px;
+} */
+.detailsPost{
+  font-size: 15px;
+  color: #757373;
+  /* color: rgb(165, 164, 164); */
+}
+.title{
+  font-family: 'Open Sans';
+}
+
+.w3-container{
+  border-radius: 4px;
+  font-family: 'Open Sans';
+
+}
+.w3-container h6{
+  font-family: 'Open Sans';
+
+}
+
+#post {
+  /* display: inline-block;
+  float: left;
+  width: 100px;
+  height: 100px; */
+  position: relative
+}
+
+
+/* .del_btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 25px;
+  margin-right: 10px;
+  
+ 
+   font-size: 18px;
+ margin-top: -5px;
+   background-color: red; 
+   color: black; 
+   border:  none;
+   border-radius: 100px;
+} */
+
+
 
 .App-logo {
   height: 40vmin;
@@ -23,9 +164,244 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.font-weight-bold{
+  color: black;
+  font-size: 42px;
+  font-family: Lato, sans-serif;
+
+
+}
+.font-weight-bold:hover{
+  color: #cbd8d8b8;
+  text-shadow: 2px 2px 8px rgba(66,84,101,0.4);
+  
+  font-size: 42px;
+  -webkit-text-stroke: 1px rgb(96, 66, 2);
+  font-family: Lato, sans-serif;
+
+
+}
+.font-weight-bold p{
+  font-size: 20px;
+  line-height: 0.4;
+  color: rgb(40, 40, 40);
+}
+.w3-container2{
+
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("./background.png");
+    background-position: 50% 50%;
+    text-align: center;
+    align-items: center;
+  
+}
+.home{
+  background-color: white;
+}
+
+.allpostTitle
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+  text-align: center;
+  font-family:'Open Sans';
+
+}
+.ml-auto{
+  color: black;
+  font-size: 16px;
+  font-family:'Open Sans';
+
+}
+.Postlist{
+  background-color: rgb(247, 246, 246);
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.addButton{
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  align-items: center;
+  width: 10%;
+  background-color: #bee1eb;
+  color: black; 
+  border: 2px solid #aae4f5;
+  border-radius: 5px; 
+}
+.addButton:hover{
+ background-color:#b0cdd6
+}
+.buttonPostcancel{
+     
+  
+  margin-left: 5px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    align-items: center;
+    width: 20%;
+    background-color: #f8c8c8;
+    color: black; 
+    border: 2px solid #ccc;
+    border-radius: 5px; 
+ }
+ .buttonPostcancel:hover{
+   background-color: rgb(245, 124, 124);
+ }
+ .buttonUpdatePost{
+   text-align: center;
+   width: 100%;
+ }
+.buttonPostpublish:hover{
+   background-color: rgb(94, 177, 89);
+   color: white;
+ }
+.buttonPostpublish{
+     
+   font-size: 18px;
+   font-family: 'Open Sans';
+   align-items: center;
+   width: 20%;
+   background-color: #f8f8f8;
+   color: black; 
+   border: 2px solid #ccc;
+   border-radius: 5px; 
+}
+.newComment{
+  font-size: 15px;
+  margin-bottom: 20px;
+  width: 30%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(245, 243, 243);
+  border-radius: 4px;
+  background-color: #eefaface;
+ 
+}
+.textarea {
+  font-size: 15px;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  background-color: #eefaface;
+  resize: none;
+  display: block;
+
+}
+/* #Search{
+  color: black;
+  margin-left: 10px;
+  font-size: 20px;
+} */
+.Search{
+  margin-left: 10px;
+  margin-top: 5px;
+  float: none;
+  border: none;
+  align-items: center;
+
+  font-size: 18px;
+}
+.more-less-btn{
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  background-color: transparent;
+  color: black; 
+  border: none;
+}
+#pluse{
+  font-size: 13px;
+  color: black;
+}
+.Search2{
+  margin-right: 10px;
+   font-size: 18px;
+   font-family: 'Open Sans';
+   background-color: #eefaface;
+   color: black; 
+   padding-left: 10px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   padding-right: 90px;
+   border: 2px solid rgb(236, 234, 234);
+   border-radius: 7px; 
+}
+.readmore{
+  color: #008CBA;
+}
+.textareatitle {
+  font-size: 15px;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+.menuBtn{
+  background-color: transparent;
+}
+.buttonNewPost{
+   
+ /* margin-bottom: 20px; */
+ /* margin-top: 20px; */
+   font-size: 16px;
+   font-family: 'Open Sans';
+   align-items: center;
+   
+   background-color: white;
+   color: black; 
+   border: 2px solid rgb(73, 176, 240);
+   border-radius: 5px;
+   
+}
+.buttonNewPost:hover {
+  background-color:rgb(73, 176, 240);
+  color: white;
+}
+.buttonPost{
+   
+  padding-left: 20px;
+  padding-right: 25px;
+ margin-left: 25%;
+   font-size: 18px;
+   font-family: 'Open Sans';
+   align-items: center;
+   width: 50%;
+   background-color: #f8f8f8;
+   color: black; 
+   border: 2px solid #ccc;
+   border-radius: 5px; 
+}
+.buttonPost:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  background-color: #cbd8d8b8;
+  color: black;
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+}
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
 @keyframes App-logo-spin {
