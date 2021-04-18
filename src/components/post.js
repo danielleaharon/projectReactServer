@@ -88,7 +88,7 @@ export default function Post(props) {
 
     return (
     
-        <div id="post">
+        <div className="id" id="post">
             <div className="w3-container w3-card w3-white w3-round w3-margin" ><br />
             
             {(isAuth()&& isAuth().username == username) ? ( <div className='w3-right w3-opacity'>
